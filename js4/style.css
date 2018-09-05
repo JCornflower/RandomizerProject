@@ -1,0 +1,36 @@
+body {
+}
+
+.container{
+    margin: auto;
+    border: 5px solid red;
+    position: absolute;
+    top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+	display: flex;
+	justify-content: space-between;
+	padding-top:10%;
+	padding-left:30px;
+	padding-right: 30px;
+}
+#input1, #input2, #output {
+	text-align: center;
+}
+
+.inner1{
+	font-family: serif;
+	font-size:1.5em;
+	padding-top: 23%;
+	margin: 0 auto; 
+	flex-direction: column;
+	text-align: center;
+	}
+    
+
